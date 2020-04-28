@@ -9,12 +9,12 @@
 # 20 Nov 2017 - added dir creation and adjusted file extensions
 # 14 July 2019 - Cleaned up - uploaded to github
 # 13 Oct 2019 - altered structure for files for easier analysis
+# 28 April 2020 - Generic names in lookups
  
 
 # Reference Data
 FILE_EXT='date +%F_%T'
-DOMAIN_DEFEND_LIST="telstra.net.au bigpond.com.au telstra.net telstra.net.au telstra.com bigpond.com telstra.com.au team.telstra.com"
-#DOMAIN_DEFEND_LIST="telstra.net.au bigpond.com.au" 
+DOMAIN_DEFEND_LIST="EXAMPLE.com EXAMPLE.com.au" 
 
 
 for DOMAIN in ${DOMAIN_DEFEND_LIST}
